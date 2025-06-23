@@ -3,10 +3,12 @@ num = n ** 2
 magicsquare = [[0 for x in range(n)]
                    for y in range(n)]
 print("Array initially: ")
+'''
 for i in range(n):
     for j in range(n):
         print(magicsquare[i][j], end=' ')
     print(" ")
+'''
 i = n // 2
 j = n - 1
 count = 1
